@@ -1,11 +1,11 @@
-import clsx from "clsx";
 import "./styles/global.css";
 import { Container } from "./components/Container";
+import { DeliveryCard } from "./components/DeliveryCard";
 
 export default function App() {
   return (
     <Container>
-      <h1 className={clsx("text-center bg-amber-200")}>Hello, world!</h1>
+      <DeliveryCard />
     </Container>
   );
 }
