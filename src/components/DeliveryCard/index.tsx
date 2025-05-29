@@ -1,5 +1,6 @@
 import clsx from "clsx";
 import { CurrencyValue } from "../CurrencyValue";
+import { Heading } from "../Heading";
 
 export function DeliveryCard() {
   return (
@@ -12,9 +13,11 @@ export function DeliveryCard() {
         "cursor-pointer transition",
         "hover:brightness-110"
       )}
+      title="informações sobre a entrega número 001"
+      aria-label="informações sobre a entrega número 001"
     >
       <div>
-        <h3 className="text-2xl text-lime-950">Cliente:</h3>
+        <Heading as="h1">Cliente:</Heading>
         <h2 className="text-xl">Lion Lurdes</h2>
         <span className="italic text-slate-900">
           Criado em 27/05/25 às 19:00
@@ -24,7 +27,7 @@ export function DeliveryCard() {
         </p>
       </div>
       <div>
-        <h3 className="text-2xl text-lime-950">Endereço de entrega:</h3>
+        <Heading as="h2">Endereço de entrega:</Heading>
         <ul className="list-disc pl-8">
           <li>Rua do comércio, 400</li>
           <li>Apto. 102</li>
@@ -33,7 +36,7 @@ export function DeliveryCard() {
         </ul>
       </div>
       <div>
-        <h3 className="text-2xl text-lime-950">Pagamento:</h3>
+        <Heading as="h3">Pagamento:</Heading>
         <p>
           Método de pagamento: <b>Cartão</b>
         </p>
