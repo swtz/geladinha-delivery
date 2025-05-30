@@ -17,7 +17,7 @@ export function DeliveryCard() {
       aria-label="informações sobre a entrega número 001"
     >
       <div>
-        <Heading as="h1">Cliente:</Heading>
+        <Heading as="h3">Cliente:</Heading>
         <h2 className="text-xl">Lion Lurdes</h2>
         <span className="italic text-slate-900">
           Criado em 27/05/25 às 19:00
@@ -27,7 +27,7 @@ export function DeliveryCard() {
         </p>
       </div>
       <div>
-        <Heading as="h2">Endereço de entrega:</Heading>
+        <Heading as="h3">Endereço de entrega:</Heading>
         <ul className="list-disc pl-8">
           <li>Rua do comércio, 400</li>
           <li>Apto. 102</li>
