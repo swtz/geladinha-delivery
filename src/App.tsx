@@ -1,16 +1,27 @@
-import "./styles/global.css";
+import { useState } from "react";
+
 import { Container } from "./components/Container";
 import { DeliveryCardList } from "./components/DeliveryCardList";
 import { Menu } from "./components/Menu";
 
+import "./styles/global.css";
+
 export default function App() {
+  const [isActive, setIsActive] = useState(false);
+
+  function toggleDropdown() {
+    setIsActive((s) => !s);
+  }
+
   return (
     <>
-      <Menu />
+      <Menu isActive={isActive} toggleDropdown={toggleDropdown} />
 
-      <Container>
-        <DeliveryCardList />
-      </Container>
+      <div onClick={() => setIsActive(false)}>
+        <Container>
+          <DeliveryCardList />
+        </Container>
+      </div>
     </>
   );
 }
