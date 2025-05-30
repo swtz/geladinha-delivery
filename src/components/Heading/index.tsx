@@ -2,10 +2,9 @@ import clsx from "clsx";
 
 type HeadingProps = {
   as?: "h1" | "h2" | "h3";
-  children: React.ReactNode;
-};
+} & React.ComponentProps<"h1">;
 
-export function Heading({ children, as: Tag = "h2" }: HeadingProps) {
+export function Heading({ children, as: Tag = "h2", ...props }: HeadingProps) {
   const headingStyles = {
     h1: clsx("text-4xl font-extrabold"),
     h2: clsx("text-3xl font-bold"),
@@ -13,6 +12,11 @@ export function Heading({ children, as: Tag = "h2" }: HeadingProps) {
   };
 
   return (
-    <Tag className={clsx(headingStyles[Tag], "text-lime-950")}>{children}</Tag>
+    <Tag
+      {...props}
+      className={clsx(headingStyles[Tag], "text-lime-950", props.className)}
+    >
+      {children}
+    </Tag>
   );
 }

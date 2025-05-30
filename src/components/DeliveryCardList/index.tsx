@@ -12,7 +12,6 @@ export function DeliveryCardList() {
         "gap-4",
         "justify-center",
         "xlg:justify-start",
-        "mt-24"
       )}
     >
       {cardsArray.map((_) => {
