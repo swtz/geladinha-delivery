@@ -33,307 +33,324 @@
       "total": 45.0
     },
     {
-      "id": "1a2b3c4d-1111-aaaa-bbbb-000000000001",
-      "createdAt": "2025-05-20T18:12:45.120Z",
-      "status": "realizado",
-      "delivery_method": "em casa",
+      "id": "ad67f575-62e8-4521-a1ce-7cc9b12ff80c",
+      "createdAt": "2025-05-24T13:42:14.765596Z",
+      "status": "cancelled",
+      "delivery_method": "pickup",
       "address": [
         {
-          "street": "Av. Central",
-          "number": "220",
-          "complement": "casa",
-          "reference_point": "próximo ao mercado",
-          "neighborhood": "Centro",
-          "city": "Balneário Gaivota",
-          "state_code": "SC"
-        }
-      ],
-      "payment_method": "pix",
-      "order_items": [
-        {
-          "name": "heineken",
-          "category": "cerveja",
-          "price": 9.5,
-          "type": "lata",
-          "amount": 6,
-          "info": "cerveja premium"
-        }
-      ],
-      "subtotal": 57.0,
-      "delivery_tax": 4.0,
-      "total": 61.0
-    },
-    {
-      "id": "2b3c4d5e-2222-bbbb-cccc-000000000002",
-      "createdAt": "2025-05-21T21:34:10.000Z",
-      "status": "cancelado",
-      "delivery_method": "retirada",
-      "address": [
-        {
-          "street": "Rua das Palmeiras",
-          "number": "89",
-          "complement": "",
-          "reference_point": "em frente à padaria",
-          "neighborhood": "Jardins",
-          "city": "Sombrio",
-          "state_code": "SC"
-        }
-      ],
-      "payment_method": "crédito",
-      "order_items": [
-        {
-          "name": "doritos",
-          "category": "snack",
-          "price": 7.5,
-          "type": "pacote 150g",
-          "amount": 2,
-          "info": "sabor queijo nacho"
-        }
-      ],
-      "subtotal": 15.0,
-      "delivery_tax": 0.0,
-      "total": 15.0
-    },
-    {
-      "id": "3c4d5e6f-3333-cccc-dddd-000000000003",
-      "createdAt": "2025-05-22T10:00:00.000Z",
-      "status": "em andamento",
-      "delivery_method": "em casa",
-      "address": [
-        {
-          "street": "Travessa do Luar",
-          "number": "301",
+          "street": "Rua das Flores",
+          "number": "130",
           "complement": "fundos",
           "reference_point": "atrás da igreja",
-          "neighborhood": "Vila Nova",
-          "city": "Balneário Gaivota",
-          "state_code": "SC"
+          "neighborhood": "Centro",
+          "city": "Sombrio",
+          "state_code": "SC",
+          "location": "-29.213879, -49.569635"
         }
       ],
-      "payment_method": "débito",
+      "payment_method": "credit",
       "order_items": [
         {
-          "name": "água mineral",
-          "category": "bebida",
-          "price": 3.0,
-          "type": "garrafa 1,5L",
-          "amount": 3,
-          "info": "sem gás"
-        },
-        {
-          "name": "ice",
-          "category": "drink",
-          "price": 6.5,
+          "name": "spaten",
+          "amount": 6,
+          "category": "cerveja",
           "type": "longneck",
-          "amount": 2,
-          "info": "sabor limão"
+          "price": 8.0,
+          "info": ""
         }
       ],
-      "subtotal": 22.5,
-      "delivery_tax": 5.0,
-      "total": 27.5
+      "subtotal": 48.0,
+      "delivery_tax": 5,
+      "total": 53.0
     },
     {
-      "id": "4d5e6f70-4444-dddd-eeee-000000000004",
-      "createdAt": "2025-05-23T16:45:20.500Z",
-      "status": "realizado",
-      "delivery_method": "em casa",
+      "id": "89f92a29-fe2d-47c0-9330-bfbee2db006c",
+      "createdAt": "2025-05-10T13:42:14.765737Z",
+      "status": "cancelled",
+      "delivery_method": "pickup",
       "address": [
         {
           "street": "Rua do Sol",
-          "number": "77",
-          "complement": "",
-          "reference_point": "ao lado do posto",
-          "neighborhood": "Arroio Corrente",
-          "city": "Balneário Gaivota",
-          "state_code": "SC"
+          "number": "136",
+          "complement": "apto. 101",
+          "reference_point": "em frente à praça",
+          "neighborhood": "Boa Vista",
+          "city": "Sombrio",
+          "state_code": "SC",
+          "location": "-29.122449, -49.565070"
         }
       ],
-      "payment_method": "dinheiro",
+      "payment_method": "credit",
       "order_items": [
         {
           "name": "budweiser",
+          "amount": 1,
           "category": "cerveja",
+          "type": "latão",
           "price": 7.5,
-          "type": "longneck",
-          "amount": 10,
-          "info": "com gelo"
+          "info": ""
         }
       ],
-      "subtotal": 75.0,
-      "delivery_tax": 5.0,
-      "total": 80.0
+      "subtotal": 7.5,
+      "delivery_tax": 0,
+      "total": 7.5
     },
     {
-      "id": "5e6f7081-5555-eeee-ffff-000000000005",
-      "createdAt": "2025-05-24T12:30:00.000Z",
-      "status": "realizado",
-      "delivery_method": "em casa",
+      "id": "9c73e49c-7f39-4372-865a-149160ee6092",
+      "createdAt": "2025-05-07T13:42:14.765843Z",
+      "status": "pending",
+      "delivery_method": "pickup",
       "address": [
         {
-          "street": "Rua Flor de Liz",
-          "number": "52",
-          "complement": "sobrado",
-          "reference_point": "perto do lago",
+          "street": "Rua do Sol",
+          "number": "62",
+          "complement": "apto. 202",
+          "reference_point": "ao lado do mercado",
+          "neighborhood": "Arroio Corrente",
+          "city": "Balneário Gaivota",
+          "state_code": "SC",
+          "location": "-29.218975, -49.554339"
+        }
+      ],
+      "payment_method": "credit",
+      "order_items": [
+        {
+          "name": "amendoim",
+          "amount": 5,
+          "category": "petisco",
+          "type": "pacote",
+          "price": 4.0,
+          "info": ""
+        }
+      ],
+      "subtotal": 20.0,
+      "delivery_tax": 5,
+      "total": 25.0
+    },
+    {
+      "id": "9e92c89f-9c41-4f8c-a896-59aef6100547",
+      "createdAt": "2025-05-18T13:42:14.765980Z",
+      "status": "cancelled",
+      "delivery_method": "inHome",
+      "address": [
+        {
+          "street": "Rua das Acácias",
+          "number": "1",
+          "complement": "fundos",
+          "reference_point": "perto da escola",
           "neighborhood": "Boa Vista",
-          "city": "Sombrio",
-          "state_code": "SC"
+          "city": "Balneário Gaivota",
+          "state_code": "SC",
+          "location": "-29.091113, -49.523486"
+        }
+      ],
+      "payment_method": "debit",
+      "order_items": [
+        {
+          "name": "ice",
+          "amount": 4,
+          "category": "drink",
+          "type": "garrafa",
+          "price": 6.5,
+          "info": "avisar pelo WhatsApp"
+        }
+      ],
+      "subtotal": 26.0,
+      "delivery_tax": 4,
+      "total": 30.0
+    },
+    {
+      "id": "16b667ca-78d4-46fc-99a2-df10cb1f560b",
+      "createdAt": "2025-05-29T13:42:14.766301Z",
+      "status": "cancelled",
+      "delivery_method": "inHome",
+      "address": [
+        {
+          "street": "Rua das Flores",
+          "number": "119",
+          "complement": "casa",
+          "reference_point": "em frente à praça",
+          "neighborhood": "Vila Gaivota",
+          "city": "Balneário Gaivota",
+          "state_code": "SC",
+          "location": "-29.134557, -49.622456"
+        }
+      ],
+      "payment_method": "money",
+      "order_items": [
+        {
+          "name": "ice",
+          "amount": 4,
+          "category": "drink",
+          "type": "garrafa",
+          "price": 6.5,
+          "info": "avisar pelo WhatsApp"
+        }
+      ],
+      "subtotal": 26.0,
+      "delivery_tax": 0,
+      "total": 26.0
+    },
+    {
+      "id": "47926123-e2b3-44b1-9aeb-0e4a0708d65a",
+      "createdAt": "2025-05-26T13:42:14.766423Z",
+      "status": "pending",
+      "delivery_method": "pickup",
+      "address": [
+        {
+          "street": "Travessa do Mar",
+          "number": "16",
+          "complement": "casa",
+          "reference_point": "ao lado do mercado",
+          "neighborhood": "Jardim Ultramar",
+          "city": "Balneário Gaivota",
+          "state_code": "SC",
+          "location": "-29.228321, -49.569048"
+        }
+      ],
+      "payment_method": "money",
+      "order_items": [
+        {
+          "name": "spaten",
+          "amount": 3,
+          "category": "cerveja",
+          "type": "longneck",
+          "price": 8.0,
+          "info": ""
+        }
+      ],
+      "subtotal": 24.0,
+      "delivery_tax": 5,
+      "total": 29.0
+    },
+    {
+      "id": "fcfb9353-60bf-4d04-bf06-4234fd98aefe",
+      "createdAt": "2025-05-23T13:42:14.766642Z",
+      "status": "cancelled",
+      "delivery_method": "inHome",
+      "address": [
+        {
+          "street": "Av. Atlântica",
+          "number": "378",
+          "complement": "fundos",
+          "reference_point": "atrás da igreja",
+          "neighborhood": "Arroio Corrente",
+          "city": "Balneário Gaivota",
+          "state_code": "SC",
+          "location": "-29.169002, -49.543869"
+        }
+      ],
+      "payment_method": "debit",
+      "order_items": [
+        {
+          "name": "amendoim",
+          "amount": 3,
+          "category": "petisco",
+          "type": "pacote",
+          "price": 4.0,
+          "info": "avisar pelo WhatsApp"
+        }
+      ],
+      "subtotal": 12.0,
+      "delivery_tax": 5,
+      "total": 17.0
+    },
+    {
+      "id": "c3d3b730-3d6d-4db8-8b53-829b95d0d7f4",
+      "createdAt": "2025-05-17T13:42:14.766725Z",
+      "status": "cancelled",
+      "delivery_method": "inHome",
+      "address": [
+        {
+          "street": "Rua das Flores",
+          "number": "104",
+          "complement": "fundos",
+          "reference_point": "perto da escola",
+          "neighborhood": "Centro",
+          "city": "Balneário Gaivota",
+          "state_code": "SC",
+          "location": "-29.134650, -49.672089"
         }
       ],
       "payment_method": "pix",
       "order_items": [
         {
           "name": "coca-cola",
+          "amount": 6,
           "category": "refrigerante",
-          "price": 9.0,
           "type": "2L",
-          "amount": 2,
-          "info": "gelada"
-        },
-        {
-          "name": "amendoim",
-          "category": "petisco",
-          "price": 4.0,
-          "type": "pacote",
-          "amount": 3,
-          "info": "torrado com sal"
+          "price": 9.0,
+          "info": "avisar pelo WhatsApp"
         }
       ],
-      "subtotal": 35.0,
-      "delivery_tax": 4.0,
-      "total": 39.0
+      "subtotal": 54.0,
+      "delivery_tax": 5,
+      "total": 59.0
     },
     {
-      "id": "6f708192-6666-ffff-aaaa-000000000006",
-      "createdAt": "2025-05-25T14:10:00.000Z",
-      "status": "realizado",
-      "delivery_method": "retirada",
+      "id": "24b7c201-22e1-4caf-97e5-3713b9977460",
+      "createdAt": "2025-05-11T13:42:14.766764Z",
+      "status": "approved",
+      "delivery_method": "inHome",
       "address": [
         {
-          "street": "Av. Beira Mar",
-          "number": "500",
-          "complement": "quiosque 8",
-          "reference_point": "em frente ao mar",
-          "neighborhood": "Praia",
-          "city": "Balneário Gaivota",
-          "state_code": "SC"
-        }
-      ],
-      "payment_method": "crédito",
-      "order_items": [
-        {
-          "name": "smirnoff",
-          "category": "destilado",
-          "price": 39.9,
-          "type": "garrafa 750ml",
-          "amount": 1,
-          "info": "vodka"
-        }
-      ],
-      "subtotal": 39.9,
-      "delivery_tax": 0.0,
-      "total": 39.9
-    },
-    {
-      "id": "7g8192a3-7777-aaaa-bbbb-000000000007",
-      "createdAt": "2025-05-26T19:05:00.000Z",
-      "status": "pendente",
-      "delivery_method": "em casa",
-      "address": [
-        {
-          "street": "Rua das Rosas",
-          "number": "123",
-          "complement": "fundos",
-          "reference_point": "casa azul",
-          "neighborhood": "Campo Duna",
-          "city": "Balneário Gaivota",
-          "state_code": "SC"
-        }
-      ],
-      "payment_method": "dinheiro",
-      "order_items": [
-        {
-          "name": "red bull",
-          "category": "energético",
-          "price": 10.0,
-          "type": "lata 250ml",
-          "amount": 2,
-          "info": "tradicional"
-        }
-      ],
-      "subtotal": 20.0,
-      "delivery_tax": 5.0,
-      "total": 25.0
-    },
-    {
-      "id": "8h92a3b4-8888-bbbb-cccc-000000000008",
-      "createdAt": "2025-05-27T09:45:00.000Z",
-      "status": "realizado",
-      "delivery_method": "em casa",
-      "address": [
-        {
-          "street": "Alameda dos Pinhais",
-          "number": "16",
-          "complement": "casa 2",
-          "reference_point": "depois do campo",
-          "neighborhood": "Veredas",
+          "street": "Rua das Flores",
+          "number": "312",
+          "complement": "apto. 202",
+          "reference_point": "ao lado do mercado",
+          "neighborhood": "Vila Gaivota",
           "city": "Sombrio",
-          "state_code": "SC"
+          "state_code": "SC",
+          "location": "-29.146126, -49.579093"
         }
       ],
       "payment_method": "pix",
       "order_items": [
         {
-          "name": "guaraná antárctica",
-          "category": "refrigerante",
-          "price": 7.0,
-          "type": "2L",
-          "amount": 1,
-          "info": ""
-        },
-        {
-          "name": "picanha fatiada",
-          "category": "carne",
-          "price": 45.0,
-          "type": "bandeja 500g",
-          "amount": 1,
-          "info": "resfriada"
+          "name": "spaten",
+          "amount": 2,
+          "category": "cerveja",
+          "type": "longneck",
+          "price": 8.0,
+          "info": "chamar no interfone do apto. 202"
         }
       ],
-      "subtotal": 52.0,
-      "delivery_tax": 6.0,
-      "total": 58.0
+      "subtotal": 16.0,
+      "delivery_tax": 0,
+      "total": 16.0
     },
     {
-      "id": "9i03b4c5-9999-cccc-dddd-000000000009",
-      "createdAt": "2025-05-27T20:15:00.000Z",
-      "status": "realizado",
-      "delivery_method": "retirada",
+      "id": "ed460666-264f-46c3-a2df-2729d9cd38ef",
+      "createdAt": "2025-05-31T13:42:14.766816Z",
+      "status": "delivered",
+      "delivery_method": "pickup",
       "address": [
         {
-          "street": "Rua do Comércio",
-          "number": "400",
-          "complement": "",
-          "reference_point": "loja 3",
-          "neighborhood": "Centro",
+          "street": "Av. Beira-Mar",
+          "number": "140",
+          "complement": "apto. 202",
+          "reference_point": "atrás da igreja",
+          "neighborhood": "Jardim Ultramar",
           "city": "Balneário Gaivota",
-          "state_code": "SC"
+          "state_code": "SC",
+          "location": "-29.060869, -49.549296"
         }
       ],
-      "payment_method": "crédito",
+      "payment_method": "credit",
       "order_items": [
         {
-          "name": "kit churrasco",
-          "category": "carne",
-          "price": 89.0,
-          "type": "kit",
-          "amount": 1,
-          "info": "contém linguiça, frango e picanha"
+          "name": "budweiser",
+          "amount": 5,
+          "category": "cerveja",
+          "type": "latão",
+          "price": 7.5,
+          "info": ""
         }
       ],
-      "subtotal": 89.0,
-      "delivery_tax": 0.0,
-      "total": 89.0
+      "subtotal": 37.5,
+      "delivery_tax": 0,
+      "total": 37.5
     }
   ]
 }
