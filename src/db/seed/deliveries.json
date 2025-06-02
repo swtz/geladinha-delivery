@@ -4,21 +4,21 @@
       "id": "99f8add4-7684-4c16-a316-616271db199e",
       "createdAt": "2025-04-08T00:24:38.616Z",
       "status": "approved",
-      "delivery_method": "inHome",
+      "deliveryMethod": "inHome",
       "address": [
         {
           "street": "Rua três de março",
           "number": "14",
           "complement": "apto. 102",
-          "reference_point": "perto da escola",
+          "referencePoint": "perto da escola",
           "neighborhood": "França",
           "city": "Balneário Gaivota",
-          "state_code": "SC",
+          "stateCode": "SC",
           "location": "-29.148794, -49.582442"
         }
       ],
-      "payment_method": "money",
-      "order_items": [
+      "paymentMethod": "money",
+      "orderItems": [
         {
           "name": "spaten",
           "amount": 5,
@@ -29,28 +29,28 @@
         }
       ],
       "subtotal": 40.0,
-      "delivery_tax": 5.0,
+      "deliveryTax": 5.0,
       "total": 45.0
     },
     {
       "id": "ad67f575-62e8-4521-a1ce-7cc9b12ff80c",
       "createdAt": "2025-05-24T13:42:14.765596Z",
       "status": "cancelled",
-      "delivery_method": "pickup",
+      "deliveryMethod": "pickup",
       "address": [
         {
           "street": "Rua das Flores",
           "number": "130",
           "complement": "fundos",
-          "reference_point": "atrás da igreja",
+          "referencePoint": "atrás da igreja",
           "neighborhood": "Centro",
           "city": "Sombrio",
-          "state_code": "SC",
+          "stateCode": "SC",
           "location": "-29.213879, -49.569635"
         }
       ],
-      "payment_method": "credit",
-      "order_items": [
+      "paymentMethod": "credit",
+      "orderItems": [
         {
           "name": "spaten",
           "amount": 6,
@@ -61,28 +61,28 @@
         }
       ],
       "subtotal": 48.0,
-      "delivery_tax": 5,
+      "deliveryTax": 5,
       "total": 53.0
     },
     {
       "id": "89f92a29-fe2d-47c0-9330-bfbee2db006c",
       "createdAt": "2025-05-10T13:42:14.765737Z",
       "status": "cancelled",
-      "delivery_method": "pickup",
+      "deliveryMethod": "pickup",
       "address": [
         {
           "street": "Rua do Sol",
           "number": "136",
           "complement": "apto. 101",
-          "reference_point": "em frente à praça",
+          "referencePoint": "em frente à praça",
           "neighborhood": "Boa Vista",
           "city": "Sombrio",
-          "state_code": "SC",
+          "stateCode": "SC",
           "location": "-29.122449, -49.565070"
         }
       ],
-      "payment_method": "credit",
-      "order_items": [
+      "paymentMethod": "credit",
+      "orderItems": [
         {
           "name": "budweiser",
           "amount": 1,
@@ -93,28 +93,28 @@
         }
       ],
       "subtotal": 7.5,
-      "delivery_tax": 0,
+      "deliveryTax": 0,
       "total": 7.5
     },
     {
       "id": "9c73e49c-7f39-4372-865a-149160ee6092",
       "createdAt": "2025-05-07T13:42:14.765843Z",
       "status": "pending",
-      "delivery_method": "pickup",
+      "deliveryMethod": "pickup",
       "address": [
         {
           "street": "Rua do Sol",
           "number": "62",
           "complement": "apto. 202",
-          "reference_point": "ao lado do mercado",
+          "referencePoint": "ao lado do mercado",
           "neighborhood": "Arroio Corrente",
           "city": "Balneário Gaivota",
-          "state_code": "SC",
+          "stateCode": "SC",
           "location": "-29.218975, -49.554339"
         }
       ],
-      "payment_method": "credit",
-      "order_items": [
+      "paymentMethod": "credit",
+      "orderItems": [
         {
           "name": "amendoim",
           "amount": 5,
@@ -125,28 +125,28 @@
         }
       ],
       "subtotal": 20.0,
-      "delivery_tax": 5,
+      "deliveryTax": 5,
       "total": 25.0
     },
     {
       "id": "9e92c89f-9c41-4f8c-a896-59aef6100547",
       "createdAt": "2025-05-18T13:42:14.765980Z",
       "status": "cancelled",
-      "delivery_method": "inHome",
+      "deliveryMethod": "inHome",
       "address": [
         {
           "street": "Rua das Acácias",
           "number": "1",
           "complement": "fundos",
-          "reference_point": "perto da escola",
+          "referencePoint": "perto da escola",
           "neighborhood": "Boa Vista",
           "city": "Balneário Gaivota",
-          "state_code": "SC",
+          "stateCode": "SC",
           "location": "-29.091113, -49.523486"
         }
       ],
-      "payment_method": "debit",
-      "order_items": [
+      "paymentMethod": "debit",
+      "orderItems": [
         {
           "name": "ice",
           "amount": 4,
@@ -157,28 +157,28 @@
         }
       ],
       "subtotal": 26.0,
-      "delivery_tax": 4,
+      "deliveryTax": 4,
       "total": 30.0
     },
     {
       "id": "16b667ca-78d4-46fc-99a2-df10cb1f560b",
       "createdAt": "2025-05-29T13:42:14.766301Z",
       "status": "cancelled",
-      "delivery_method": "inHome",
+      "deliveryMethod": "inHome",
       "address": [
         {
           "street": "Rua das Flores",
           "number": "119",
           "complement": "casa",
-          "reference_point": "em frente à praça",
+          "referencePoint": "em frente à praça",
           "neighborhood": "Vila Gaivota",
           "city": "Balneário Gaivota",
-          "state_code": "SC",
+          "stateCode": "SC",
           "location": "-29.134557, -49.622456"
         }
       ],
-      "payment_method": "money",
-      "order_items": [
+      "paymentMethod": "money",
+      "orderItems": [
         {
           "name": "ice",
           "amount": 4,
@@ -189,28 +189,28 @@
         }
       ],
       "subtotal": 26.0,
-      "delivery_tax": 0,
+      "deliveryTax": 0,
       "total": 26.0
     },
     {
       "id": "47926123-e2b3-44b1-9aeb-0e4a0708d65a",
       "createdAt": "2025-05-26T13:42:14.766423Z",
       "status": "pending",
-      "delivery_method": "pickup",
+      "deliveryMethod": "pickup",
       "address": [
         {
           "street": "Travessa do Mar",
           "number": "16",
           "complement": "casa",
-          "reference_point": "ao lado do mercado",
+          "referencePoint": "ao lado do mercado",
           "neighborhood": "Jardim Ultramar",
           "city": "Balneário Gaivota",
-          "state_code": "SC",
+          "stateCode": "SC",
           "location": "-29.228321, -49.569048"
         }
       ],
-      "payment_method": "money",
-      "order_items": [
+      "paymentMethod": "money",
+      "orderItems": [
         {
           "name": "spaten",
           "amount": 3,
@@ -221,28 +221,28 @@
         }
       ],
       "subtotal": 24.0,
-      "delivery_tax": 5,
+      "deliveryTax": 5,
       "total": 29.0
     },
     {
       "id": "fcfb9353-60bf-4d04-bf06-4234fd98aefe",
       "createdAt": "2025-05-23T13:42:14.766642Z",
       "status": "cancelled",
-      "delivery_method": "inHome",
+      "deliveryMethod": "inHome",
       "address": [
         {
           "street": "Av. Atlântica",
           "number": "378",
           "complement": "fundos",
-          "reference_point": "atrás da igreja",
+          "referencePoint": "atrás da igreja",
           "neighborhood": "Arroio Corrente",
           "city": "Balneário Gaivota",
-          "state_code": "SC",
+          "stateCode": "SC",
           "location": "-29.169002, -49.543869"
         }
       ],
-      "payment_method": "debit",
-      "order_items": [
+      "paymentMethod": "debit",
+      "orderItems": [
         {
           "name": "amendoim",
           "amount": 3,
@@ -253,28 +253,28 @@
         }
       ],
       "subtotal": 12.0,
-      "delivery_tax": 5,
+      "deliveryTax": 5,
       "total": 17.0
     },
     {
       "id": "c3d3b730-3d6d-4db8-8b53-829b95d0d7f4",
       "createdAt": "2025-05-17T13:42:14.766725Z",
       "status": "cancelled",
-      "delivery_method": "inHome",
+      "deliveryMethod": "inHome",
       "address": [
         {
           "street": "Rua das Flores",
           "number": "104",
           "complement": "fundos",
-          "reference_point": "perto da escola",
+          "referencePoint": "perto da escola",
           "neighborhood": "Centro",
           "city": "Balneário Gaivota",
-          "state_code": "SC",
+          "stateCode": "SC",
           "location": "-29.134650, -49.672089"
         }
       ],
-      "payment_method": "pix",
-      "order_items": [
+      "paymentMethod": "pix",
+      "orderItems": [
         {
           "name": "coca-cola",
           "amount": 6,
@@ -285,28 +285,28 @@
         }
       ],
       "subtotal": 54.0,
-      "delivery_tax": 5,
+      "deliveryTax": 5,
       "total": 59.0
     },
     {
       "id": "24b7c201-22e1-4caf-97e5-3713b9977460",
       "createdAt": "2025-05-11T13:42:14.766764Z",
       "status": "approved",
-      "delivery_method": "inHome",
+      "deliveryMethod": "inHome",
       "address": [
         {
           "street": "Rua das Flores",
           "number": "312",
           "complement": "apto. 202",
-          "reference_point": "ao lado do mercado",
+          "referencePoint": "ao lado do mercado",
           "neighborhood": "Vila Gaivota",
           "city": "Sombrio",
-          "state_code": "SC",
+          "stateCode": "SC",
           "location": "-29.146126, -49.579093"
         }
       ],
-      "payment_method": "pix",
-      "order_items": [
+      "paymentMethod": "pix",
+      "orderItems": [
         {
           "name": "spaten",
           "amount": 2,
@@ -317,28 +317,28 @@
         }
       ],
       "subtotal": 16.0,
-      "delivery_tax": 0,
+      "deliveryTax": 0,
       "total": 16.0
     },
     {
       "id": "ed460666-264f-46c3-a2df-2729d9cd38ef",
       "createdAt": "2025-05-31T13:42:14.766816Z",
       "status": "delivered",
-      "delivery_method": "pickup",
+      "deliveryMethod": "pickup",
       "address": [
         {
           "street": "Av. Beira-Mar",
           "number": "140",
           "complement": "apto. 202",
-          "reference_point": "atrás da igreja",
+          "referencePoint": "atrás da igreja",
           "neighborhood": "Jardim Ultramar",
           "city": "Balneário Gaivota",
-          "state_code": "SC",
+          "stateCode": "SC",
           "location": "-29.060869, -49.549296"
         }
       ],
-      "payment_method": "credit",
-      "order_items": [
+      "paymentMethod": "credit",
+      "orderItems": [
         {
           "name": "budweiser",
           "amount": 5,
@@ -349,7 +349,7 @@
         }
       ],
       "subtotal": 37.5,
-      "delivery_tax": 0,
+      "deliveryTax": 0,
       "total": 37.5
     }
   ]

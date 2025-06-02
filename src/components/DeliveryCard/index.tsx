@@ -1,8 +1,15 @@
 import clsx from "clsx";
 import { CurrencyValue } from "../CurrencyValue";
 import { Heading } from "../Heading";
+import type { CustomerModel } from "../../models/customer/CustomerModel";
+import type { DeliveryModel } from "../../models/delivery/DeliveryModel";
 
-export function DeliveryCard() {
+type DeliveryCardProps = {
+  delivery: DeliveryModel;
+  customer?: CustomerModel;
+};
+
+export function DeliveryCard({ delivery }: DeliveryCardProps) {
   return (
     <div
       className={clsx(
@@ -23,16 +30,16 @@ export function DeliveryCard() {
           Criado em 27/05/25 às 19:00
         </span>
         <p className="text-lg">
-          Tipo de entrega: <b>em casa</b>
+          Tipo de entrega: <b>{delivery.deliveryMethod}</b>
         </p>
       </div>
       <div>
         <Heading as="h3">Endereço de entrega:</Heading>
         <ul className="list-disc pl-8">
-          <li>Rua do comércio, 400</li>
-          <li>Apto. 102</li>
-          <li>Perto da escola</li>
-          <li>Centro, Balneário Gaivota - SC</li>
+          <li>{delivery.address[0].street}</li>
+          <li>{delivery.address[0].complement}</li>
+          <li>{delivery.address[0].referencePoint}</li>
+          <li>{`${delivery.address[0].city} - ${delivery.address[0].stateCode}`}</li>
         </ul>
       </div>
       <div>

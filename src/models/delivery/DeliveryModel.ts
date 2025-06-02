@@ -4,10 +4,10 @@ import type { OrderModel } from "./OrderModel";
 export type DeliveryModel = {
   id: string;
   createdAt: string;
-  status: "approved" | "dispatched" | "received" | "finished";
-  deliveryMethod: "inShop" | "inHome";
+  status: string;
+  deliveryMethod: string;
   address: AddressModel[];
-  paymentMethod: "money" | "PIX" | "card";
+  paymentMethod: string;
   orderItems: OrderModel[];
   subtotal: number;
   deliveryTax: number;

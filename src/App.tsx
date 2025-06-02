@@ -32,7 +32,11 @@ export default function App() {
 
         <Footer>
           Produzido com carinho por
-          <a className="underline transition hover:text-blue-900" href="https://www.github.com/swtz" target="_blank">
+          <a
+            className="underline transition hover:text-blue-900"
+            href="https://www.github.com/swtz"
+            target="_blank"
+          >
             Swtz
           </a>
         </Footer>
