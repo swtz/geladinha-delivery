@@ -3,6 +3,7 @@ import { CurrencyValue } from "../CurrencyValue";
 import { Heading } from "../Heading";
 import type { CustomerModel } from "../../models/customer/CustomerModel";
 import type { DeliveryModel } from "../../models/delivery/DeliveryModel";
+import { AddressCard } from "../AddressCard";
 
 type DeliveryCardProps = {
   delivery: DeliveryModel;
@@ -33,30 +34,22 @@ export function DeliveryCard({ delivery }: DeliveryCardProps) {
           Tipo de entrega: <b>{delivery.deliveryMethod}</b>
         </p>
       </div>
-      <div>
-        <Heading as="h3">Endereço de entrega:</Heading>
-        <ul className="list-disc pl-8">
-          <li>{delivery.address[0].street}</li>
-          <li>{delivery.address[0].complement}</li>
-          <li>{delivery.address[0].referencePoint}</li>
-          <li>{`${delivery.address[0].city} - ${delivery.address[0].stateCode}`}</li>
-        </ul>
-      </div>
-      <div>
-        <Heading as="h3">Pagamento:</Heading>
-        <p>
-          Método de pagamento: <b>Cartão</b>
-        </p>
-        <p>
-          Subtotal: <CurrencyValue value={89.0} />
-        </p>
-        <p>
-          Taxa de entrega: <CurrencyValue value={2.0} />
-        </p>
-        <p>
-          Total: <CurrencyValue value={91.0} />
-        </p>
-      </div>
+
+      <AddressCard address={delivery.address} />
+
+      <Heading as="h3">Pagamento:</Heading>
+      <p>
+        Método de pagamento: <b>Cartão</b>
+      </p>
+      <p>
+        Subtotal: <CurrencyValue value={89.0} />
+      </p>
+      <p>
+        Taxa de entrega: <CurrencyValue value={2.0} />
+      </p>
+      <p>
+        Total: <CurrencyValue value={91.0} />
+      </p>
     </div>
   );
 }
