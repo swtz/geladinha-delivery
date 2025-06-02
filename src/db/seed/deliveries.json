@@ -3,9 +3,8 @@
     {
       "id": "99f8add4-7684-4c16-a316-616271db199e",
       "createdAt": "2025-04-08T00:24:38.616Z",
-      "status": "realizado",
-      "delivery_method": "em casa",
-      "location": "-29.148794, -49.582442",
+      "status": "approved",
+      "delivery_method": "inHome",
       "address": [
         {
           "street": "Rua três de março",
@@ -14,17 +13,18 @@
           "reference_point": "perto da escola",
           "neighborhood": "França",
           "city": "Balneário Gaivota",
-          "state_code": "SC"
+          "state_code": "SC",
+          "location": "-29.148794, -49.582442"
         }
       ],
-      "payment_method": "dinheiro",
+      "payment_method": "money",
       "order_items": [
         {
           "name": "spaten",
-          "category": "cerveja",
-          "price": 8.0,
-          "type": "longneck",
           "amount": 5,
+          "category": "cerveja",
+          "type": "longneck",
+          "price": 8.0,
           "info": "some-adicional-info-here"
         }
       ],
