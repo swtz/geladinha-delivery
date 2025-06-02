@@ -16,13 +16,12 @@ export function AddressCard({ address }: AddressCardProps) {
         <li>{`${address[0].city} - ${address[0].stateCode}`}</li>
         <li>
           <a
-            href={`https://maps.google.com.br/maps?q=
-              ${address[0].location.split(",")[0]}
-              %2C
-              ${address[0].location.split(",")[1]}`}
+            href={`https://maps.google.com.br/maps?q=${
+              address[0].location.split(",")[0]
+            }%2C${address[0].location.split(",")[1]}`}
             target="_blank"
           >
-            {`${address[0].location}`}
+            {`Clique aqui para acessar a localização do domicílio no google maps.`}
           </a>
         </li>
       </ul>

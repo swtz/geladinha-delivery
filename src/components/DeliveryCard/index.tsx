@@ -14,7 +14,7 @@ export function DeliveryCard({ delivery, customer }: DeliveryCardProps) {
   return (
     <div
       className={clsx(
-        "max-w-sm p-4",
+        "max-w-xs p-4",
         "bg-orange-300 text-black",
         "rounded-lg",
         "border-2 border-orange-400",
