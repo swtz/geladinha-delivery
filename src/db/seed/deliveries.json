@@ -5,6 +5,7 @@
       "createdAt": "2025-04-08T00:24:38.616Z",
       "status": "realizado",
       "delivery_method": "em casa",
+      "location": "-29.148794, -49.582442",
       "address": [
         {
           "street": "Rua três de março",
