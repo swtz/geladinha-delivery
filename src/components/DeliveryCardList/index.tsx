@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import { DeliveryCard } from "../DeliveryCard";
 import { deliveries } from "../../db/seed/deliveries.json";
+import { customers } from "../../db/seed/customer.json";
 
 export function DeliveryCardList() {
   // const cardsArray = Array.from({ length: 10 });
@@ -16,7 +17,7 @@ export function DeliveryCardList() {
       )}
     >
       {deliveries.map((delivery) => {
-        return <DeliveryCard delivery={delivery} />;
+        return <DeliveryCard delivery={delivery} customer={customers[0]} />;
       })}
     </div>
   );

@@ -7,10 +7,10 @@ import { AddressCard } from "../AddressCard";
 
 type DeliveryCardProps = {
   delivery: DeliveryModel;
-  customer?: CustomerModel;
+  customer: CustomerModel;
 };
 
-export function DeliveryCard({ delivery }: DeliveryCardProps) {
+export function DeliveryCard({ delivery, customer }: DeliveryCardProps) {
   return (
     <div
       className={clsx(
@@ -21,15 +21,13 @@ export function DeliveryCard({ delivery }: DeliveryCardProps) {
         "cursor-pointer transition",
         "hover:brightness-110"
       )}
-      title="informações sobre a entrega número 001"
-      aria-label="informações sobre a entrega número 001"
+      title={`informações sobre a entrega ${delivery.id}`}
+      aria-label={`informações sobre a entrega ${delivery.id}`}
     >
       <div>
         <Heading as="h3">Cliente:</Heading>
-        <h2 className="text-xl">Lion Lurdes</h2>
-        <span className="italic text-slate-900">
-          Criado em 27/05/25 às 19:00
-        </span>
+        <h2 className="text-xl">{customer.name}</h2>
+        <span className="italic text-slate-900">{delivery.createdAt}</span>
         <p className="text-lg">
           Tipo de entrega: <b>{delivery.deliveryMethod}</b>
         </p>
@@ -39,16 +37,16 @@ export function DeliveryCard({ delivery }: DeliveryCardProps) {
 
       <Heading as="h3">Pagamento:</Heading>
       <p>
-        Método de pagamento: <b>Cartão</b>
+        Método de pagamento: <b>{delivery.paymentMethod}</b>
       </p>
       <p>
-        Subtotal: <CurrencyValue value={89.0} />
+        Subtotal: <CurrencyValue value={delivery.subtotal} />
       </p>
       <p>
-        Taxa de entrega: <CurrencyValue value={2.0} />
+        Taxa de entrega: <CurrencyValue value={delivery.deliveryTax} />
       </p>
       <p>
-        Total: <CurrencyValue value={91.0} />
+        Total: <CurrencyValue value={delivery.total} />
       </p>
     </div>
   );
