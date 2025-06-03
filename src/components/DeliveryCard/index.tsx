@@ -4,6 +4,7 @@ import { Heading } from "../Heading";
 import type { CustomerModel } from "../../models/customer/CustomerModel";
 import type { DeliveryModel } from "../../models/delivery/DeliveryModel";
 import { AddressCard } from "../AddressCard";
+import { formatDatetime } from "../../utils/format-datetime";
 
 type DeliveryCardProps = {
   delivery: DeliveryModel;
@@ -27,7 +28,13 @@ export function DeliveryCard({ delivery, customer }: DeliveryCardProps) {
       <div>
         <Heading as="h3">Cliente:</Heading>
         <h2 className="text-xl">{customer.name}</h2>
-        <span className="italic text-slate-900">{delivery.createdAt}</span>
+        <time
+          className="italic text-slate-900"
+          dateTime={delivery.createdAt}
+          title={formatDatetime(delivery.createdAt)}
+        >
+          {formatDatetime(delivery.createdAt)}
+        </time>
         <p className="text-lg">
           Tipo de entrega: <b>{delivery.deliveryMethod}</b>
         </p>
