@@ -6,7 +6,7 @@ import type { DeliveryModel } from "../../models/delivery/DeliveryModel";
 import { AddressCard } from "../AddressCard";
 import { formatDatetime } from "../../utils/format-datetime";
 
-type DeliveryCardProps = {
+export type DeliveryCardProps = {
   delivery: DeliveryModel;
   customer: CustomerModel;
 };

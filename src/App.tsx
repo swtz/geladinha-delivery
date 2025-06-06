@@ -1,12 +1,16 @@
 import { useState } from "react";
 
 import { Container } from "./components/Container";
-import { DeliveryCardList } from "./components/DeliveryCardList";
 import { Heading } from "./components/Heading";
 import { Menu } from "./components/Menu";
+import { Footer } from "./components/Footer";
+import { Delivery } from "./components/Delivery";
+
+import { deliveries } from "./db/seed/deliveries.json";
+import { customers } from "./db/seed/customer.json";
+import { motoboys } from "./db/seed/motoboy.json";
 
 import "./styles/global.css";
-import { Footer } from "./components/Footer";
 
 export default function App() {
   const [isActive, setIsActive] = useState(false);
@@ -27,7 +31,11 @@ export default function App() {
         </Container>
 
         <Container>
-          <DeliveryCardList />
+          <Delivery
+            delivery={deliveries[0]}
+            customer={customers[0]}
+            motoboy={motoboys[0]}
+          />
         </Container>
 
         <Footer>
