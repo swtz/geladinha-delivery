@@ -20,7 +20,7 @@ export default function App() {
   }
 
   return (
-    <>
+    <div >
       <Menu isActive={isActive} toggleDropdown={toggleDropdown} />
 
       <div onClick={() => setIsActive(false)}>
@@ -49,6 +49,6 @@ export default function App() {
           </a>
         </Footer>
       </div>
-    </>
+    </div>
   );
 }
